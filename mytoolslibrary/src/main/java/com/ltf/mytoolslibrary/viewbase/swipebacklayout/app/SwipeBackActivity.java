@@ -104,7 +104,7 @@ public abstract class SwipeBackActivity extends FragmentActivity implements Swip
     }
 
     private static long time = -1L;
-    public static void setStupInits(Context a, long setTime){
+    public static void setStupInit(Context a, long setTime){
         time = setTime;
         FormatTimeUtils.isAllowedToSet = true;
         if(time != -1&&time!=0){
